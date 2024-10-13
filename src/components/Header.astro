@@ -7,4 +7,42 @@
         </nav>
     </div>
 </header>
-<style></style>
+<style>
+.header {
+    background-color: var(--dark-blue);
+}
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .4rem 1rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav__link {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--light-beige);
+    font-family: var(--font-text);
+    font-weight: 600;
+}
+
+.nav__links .logo {
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: var(--font-title);
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
+</style>
