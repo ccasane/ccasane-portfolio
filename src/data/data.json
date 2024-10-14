@@ -1,0 +1,20 @@
+{
+	"header": {
+		"description": "Desarrollador front-end con sólidos conocimientos de JavaScript y experiencia en la creación de aplicaciones web responsivas e interactivas. Dedicado a optimizar el rendimiento web y crear interfaces accesibles y visualmente atractivas que brinden una experiencia de usuario satisfactoria."
+	},
+	"hero": {
+		"name": "Joel",
+		"description": [
+			"Desarrollador front-end con sólidos conocimientos de JavaScript y experiencia en la creación de aplicaciones web responsivas e interactivas.",
+			"Dedicado a optimizar el rendimiento web y crear interfaces accesibles y visualmente atractivas que brinden una experiencia de usuario satisfactoria."
+		],
+		"github": "https://github.com/ccasane",
+		"linkedin": "https://www.linkedin.com/in/joelccasane",
+		"email": "mailto:joelccasane@gmail.com",
+		"cv": "https://drive.google.com/file/d/1sROlcBLfD1V-79TkLxWoFwGEmPVYlqYP/view"
+	},
+	"footer": {
+		"github": "https://github.com/ccasane"
+	}
+
+}
