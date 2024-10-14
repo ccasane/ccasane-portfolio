@@ -1,0 +1,38 @@
+---
+import {hero} from "../data/data.json";
+---
+
+<div class="hero__btns">
+    <a href={hero.linkedin} target="_blank" rel="noopener noreferrer" aria-label="Linkedin">Linkedin</a>
+    <a href={hero.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">Github</a>
+    <a href={hero.email} aria-label="Contact">Contact</a>
+    <a href={hero.cv} aria-label="CV" target="_blank" rel="noopener noreferrer">CV</a>
+</div>
+
+<style>
+.hero__btns  {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 0.75rem 0;
+    font-family: var(--font-text);
+}
+
+.hero__btns a {
+    min-width: 65px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: .18rem .5rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-beige);
+    background-color: var(--dark-blue);
+}
+
+.hero__btns a:hover {
+    background-color: var(--medium-blue);
+}
+
+</style>
