@@ -13,6 +13,16 @@
 		"email": "mailto:joelccasane@gmail.com",
 		"cv": "https://drive.google.com/file/d/1sROlcBLfD1V-79TkLxWoFwGEmPVYlqYP/view"
 	},
+	"projects": [
+		{
+			"title": "TaskPro Lading Page",
+			"description": "Esta es una landing page ficticia de TaskPro, una aplicación de productividad. El propósito de este proyecto es mostrar mis habilidades como desarrollador frontend, utilizando tecnologías modernas y un diseño atractivo."
+		},
+		{
+			"title": "Memorias en Film",
+			"description": ""
+		}
+	],
 	"footer": {
 		"github": "https://github.com/ccasane"
 	}
