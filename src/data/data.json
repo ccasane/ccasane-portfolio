@@ -15,12 +15,14 @@
 	},
 	"projects": [
 		{
-			"title": "TaskPro Lading Page",
-			"description": "Esta es una landing page ficticia de TaskPro, una aplicación de productividad. El propósito de este proyecto es mostrar mis habilidades como desarrollador frontend, utilizando tecnologías modernas y un diseño atractivo."
+			"title": "Memorias en Film",
+			"stack": ["Vue.js", "TypeScript", "SCSS"],
+			"description": "Un proyecto personal que muestra los distintos tipos de rollos fotográficos existentes, destacando sus características."
 		},
 		{
-			"title": "Memorias en Film",
-			"description": ""
+			"title": "TaskPro Lading Page",
+			"stack": ["Vue.js", "TypeScript", "SCSS"],
+			"description": "Landing page ficticia de TaskPro, una aplicación de productividad. Utilizando tecnologías modernas y un diseño atractivo."
 		}
 	],
 	"footer": {

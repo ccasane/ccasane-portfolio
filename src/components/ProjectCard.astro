@@ -1,0 +1,43 @@
+---
+import ProjectStack from './ProjectStack.astro';
+
+interface Props {
+    title: string;
+    description: string;
+    stack: string[];
+}
+const { title, description, stack } = Astro.props;
+---
+<div class="card__projects">
+    <div class="projects__container">
+        <article class="card__data">
+            <h3>{title}</h3>
+            <ProjectStack stack={stack}></ProjectStack>
+            <p>{description}</p>
+        </article>
+    </div>
+</div>
+
+<style>
+.card__projects {
+    margin-bottom: 2rem;
+    background-color: var(--light-beige);
+}
+
+.projects__container {
+    max-width: 550px;
+    width: 100%;
+}
+
+.card__data h3 {
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: var(--dark-charcoal);
+}
+
+.card__data p {
+    font-size: 1rem;
+    margin-top: .2rem;
+    color: var(--dark-charcoal);
+}
+</style>
