@@ -3,10 +3,10 @@ import {hero} from "../data/data.json";
 ---
 
 <div class="hero__btns">
-    <a href={hero.linkedin} target="_blank" rel="noopener noreferrer" aria-label="Linkedin">Linkedin</a>
-    <a href={hero.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">Github</a>
-    <a href={hero.email} aria-label="Contact">Contact</a>
-    <a href={hero.cv} aria-label="CV" target="_blank" rel="noopener noreferrer">CV</a>
+    <a href={hero.linkedin} target="_blank" rel="noopener noreferrer">Linkedin</a>
+    <a href={hero.github} target="_blank" rel="noopener noreferrer">Github</a>
+    <a href={hero.email}>Contacto</a>
+    <a href={hero.cv} target="_blank" rel="noopener noreferrer">CV</a>
 </div>
 
 <style>
@@ -20,7 +20,7 @@ import {hero} from "../data/data.json";
 }
 
 .hero__btns a {
-    min-width: 65px;
+    min-width: 69px;
     font-size: 0.875rem;
     font-weight: 500;
     padding: .18rem .5rem;
@@ -28,11 +28,11 @@ import {hero} from "../data/data.json";
     text-align: center;
     text-decoration: none;
     color: var(--light-beige);
-    background-color: var(--dark-blue);
+    background-color: var(--dark-charcoal);
 }
 
 .hero__btns a:hover {
-    background-color: var(--medium-blue);
+    background-color: var(--medium-gray);
 }
 
 </style>
