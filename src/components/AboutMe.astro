@@ -1,0 +1,36 @@
+---
+import {aboutMe} from '../data/data.json'
+---
+
+<section class="about-me" id="about-me">
+    <div class="about-me__container">
+        <div class="about-me__data">
+            <h2>Sobre Mí</h2>
+            <p>{aboutMe.description}</p>
+        </div>
+    </div>
+</section>
+
+<style>
+.about-me {
+    padding: .6rem 0 4rem 0;
+    background-color: var(--light-beige);
+}
+
+.about-me__container {
+    max-width: 690px;
+    width: 100%;
+    margin: auto;
+}
+
+.about-me__data {
+    max-width: 550px;
+    width: 100%;
+}
+
+.about-me__container h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    color: var(--dark-charcoal);
+}
+</style>

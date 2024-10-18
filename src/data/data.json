@@ -25,8 +25,10 @@
 			"description": "Landing page ficticia de TaskPro, una aplicación de productividad. Utilizando tecnologías modernas y un diseño atractivo."
 		}
 	],
+	"aboutMe": {
+		"description": "Ya nada puede matarme, porque morí el día que conocí la programación. Pero como no todo es drama, también manejo tecnologías como Vue, Angular, Bootstrap y Tailwind, y lenguajes como JavaScript y TypeScript."
+	},
 	"footer": {
 		"github": "https://github.com/ccasane"
 	}
-
 }
