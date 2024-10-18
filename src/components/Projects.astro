@@ -1,6 +1,7 @@
 ---
 import ProjectCard from "./ProjectCard.astro";
 import {projects} from "../data/data.json"
+import ProjectsButton from "./ProjectsButton.astro";
 ---
 
 <section class="projects" id="projects">
@@ -13,6 +14,7 @@ import {projects} from "../data/data.json"
                 stack={pro.stack}
             ></ProjectCard>
         ))}
+        <ProjectsButton></ProjectsButton>
     </div>
 </section>
 
