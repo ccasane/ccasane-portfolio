@@ -1,24 +1,24 @@
 <header class="header">
     <div class="header__container">
         <nav class="nav__links">
+            <a class="nav__link" href="/">Inicio</a>
+            <a class="nav__link" href="/">Proyectos</a>
             <a class="nav__link" href="#about-me">Sobre Mí</a>
-            <a class="nav__link logo" href="/">Joel Ccasane</a>
-            <a class="nav__link" href="/">Projectos</a>
         </nav>
     </div>
 </header>
 <style>
 .header {
-    background-color: var(--dark-blue);
+    background-color: var(--dark-charcoal);
 }
 
 .header__container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: .4rem 1rem;
-    max-width: 900px;
+    max-width: 690px;
     margin: auto;
+    padding: 0.6rem 1rem;
 }
 
 .nav__links {
@@ -28,21 +28,14 @@
 }
 
 .nav__link {
-    font-size: 1rem;
-    text-decoration: none;
-    color: var(--light-beige);
     font-family: var(--font-text);
+    font-size: 1rem;
     font-weight: 600;
+    color: var(--light-beige);
+    text-decoration: none;
+    transition: color 0.29s ease;
 }
-
-.nav__links .logo {
-    font-size: 2.5rem;
-    font-weight: 100;
-    font-family: var(--font-title);
-}
-
 .nav__link:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1.5px;
+    color: var(--medium-gray);
 }
 </style>
