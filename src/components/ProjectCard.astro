@@ -5,13 +5,14 @@ interface Props {
     title: string;
     description: string;
     stack: string[];
+    href: string;
 }
-const { title, description, stack } = Astro.props;
+const { title, description, stack, href } = Astro.props;
 ---
 <div class="card__projects">
-    <div class="projects__container">
+    <div class="card__container">
         <article class="card__data">
-            <h3>{title}</h3>
+            <a href={href}>{title}</a>
             <ProjectStack stack={stack}></ProjectStack>
             <p>{description}</p>
         </article>
@@ -20,24 +21,28 @@ const { title, description, stack } = Astro.props;
 
 <style>
 .card__projects {
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
     background-color: var(--light-beige);
 }
 
-.projects__container {
-    max-width: 550px;
+.card__container {
     width: 100%;
+    max-width: 550px;
 }
 
-.card__data h3 {
-    font-size: 1.4rem;
-    font-weight: 100;
+.card__data a {
+    font-family: var(--font-text);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
     color: var(--dark-charcoal);
 }
 
 .card__data p {
-    font-size: 1rem;
-    margin-top: .2rem;
     color: var(--dark-charcoal);
+}
+
+.card__data a:hover {
+    text-decoration: underline;
 }
 </style>

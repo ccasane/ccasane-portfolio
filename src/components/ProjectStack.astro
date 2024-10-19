@@ -6,8 +6,8 @@ const { stack } = Astro.props;
 ---
 <div class="project__stack">
     {stack.map((item) => (
-        <div>
-            <span class="stack__item">{item}</span>
+        <div class="stack__item">
+            <span>{item}</span>
         </div>
     ))}
 </div>
@@ -17,16 +17,14 @@ const { stack } = Astro.props;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 0.875rem;
+    gap: .875rem;
 }
 
-.stack__item {
-    display: inline-flex;
-    justify-content: center;
-    padding: 0rem .5rem;
-    border-radius: 5px;
-    font-size: 0.875rem;
+.stack__item span{
     font-family: var(--font-text);
+    font-size: .75rem;
+    padding: .01rem .6rem .15rem;
+    border-radius: 5px;
     color: var(--light-beige);
     background-color: var(--medium-gray);
 }

@@ -17,12 +17,14 @@
 		{
 			"title": "Memorias en Film",
 			"stack": ["Vue.js", "TypeScript", "SCSS"],
-			"description": "Un proyecto personal que muestra los distintos tipos de rollos fotográficos existentes, destacando sus características."
+			"description": "Un proyecto personal que muestra los distintos tipos de rollos fotográficos existentes, destacando sus características.",
+			"href": "/"
 		},
 		{
 			"title": "TaskPro Lading Page",
 			"stack": ["Vue.js", "TypeScript", "SCSS"],
-			"description": "Landing page ficticia de TaskPro, una aplicación de productividad. Utilizando tecnologías modernas y un diseño atractivo."
+			"description": "Landing page ficticia de TaskPro, una aplicación de productividad. Utilizando tecnologías modernas y un diseño atractivo.",
+			"href": "/"
 		}
 	],
 	"aboutMe": {

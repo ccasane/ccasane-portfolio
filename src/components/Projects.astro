@@ -4,7 +4,7 @@ import {projects} from "../data/data.json"
 import ProjectsButton from "./ProjectsButton.astro";
 ---
 
-<section class="projects" id="projects">
+<section class="projects">
     <div class="projects__container">
         <h2>Proyectos</h2>
         {projects.map((pro) => (
@@ -12,6 +12,7 @@ import ProjectsButton from "./ProjectsButton.astro";
                 title={pro.title}
                 description={pro.description}
                 stack={pro.stack}
+                href={pro.href}
             ></ProjectCard>
         ))}
         <ProjectsButton></ProjectsButton>
@@ -20,21 +21,19 @@ import ProjectsButton from "./ProjectsButton.astro";
 
 <style>
 .projects {
-    padding: 1.5rem 1rem;
+    padding: 1rem;
     background-color: var(--light-beige);
 }
 
 .projects__container {
-    max-width: 690px;
     width: 100%;
+    max-width: 690px;
     margin: auto;
 }
 
 .projects__container h2 {
     font-weight: 100;
-    font-size: 2.5rem;
-    text-decoration: underline;
+    font-size: 2rem;
     color: var(--dark-charcoal);
-    margin-bottom: 1.2rem;
 }
 </style>
