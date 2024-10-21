@@ -4,33 +4,23 @@ import {aboutMe} from '../data/data.json'
 
 <section class="about-me" id="about-me">
     <div class="about-me__container">
-        <div class="about-me__data">
-            <h2>Sobre Mí</h2>
-            <p>{aboutMe.description}</p>
-        </div>
+        <h2>Sobre Mí</h2>
+        <p>{aboutMe.description}</p>
     </div>
 </section>
 
 <style>
 .about-me {
-    padding: 1rem 1rem 1.8rem;
-    background-color: var(--light-beige);
+    padding: 0 1rem 3rem;
 }
 
 .about-me__container {
     width: 100%;
-    max-width: 690px;
+    max-width: 600px;
     margin: auto;
 }
 
-.about-me__data {
-    width: 100%;
-    max-width: 550px;
-}
-
 .about-me__container h2 {
-    font-weight: 100;
     font-size: 2rem;
-    color: var(--dark-charcoal);
 }
 </style>
