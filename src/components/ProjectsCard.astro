@@ -10,35 +10,22 @@ interface Props {
 const { title, description, stack, href } = Astro.props;
 ---
 <div class="card__projects">
-    <div class="card__container">
-        <article class="card__data">
-            <a href={href}>{title}</a>
-            <ProjectStack stack={stack}></ProjectStack>
-            <p>{description}</p>
-        </article>
-    </div>
+    <article class="card__data">
+        <a href={href} rel="noopener noreferrer">{title}</a>
+        <ProjectStack stack={stack}></ProjectStack>
+        <p>{description}</p>
+    </article>
 </div>
 
 <style>
 .card__projects {
-    margin-bottom: 1.2rem;
-    background-color: var(--light-beige);
-}
-
-.card__container {
-    width: 100%;
-    max-width: 550px;
+    margin-bottom: 1rem;
 }
 
 .card__data a {
-    font-family: var(--font-text);
     font-size: 1.1rem;
     font-weight: 600;
     text-decoration: none;
-    color: var(--dark-charcoal);
-}
-
-.card__data p {
     color: var(--dark-charcoal);
 }
 
