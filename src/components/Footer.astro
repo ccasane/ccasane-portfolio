@@ -1,10 +1,9 @@
 ---
 const year = new Date().getFullYear();
 ---
-
 <footer class="footer">
     <div class="footer__container">
-        <p>Copyright © <span id="year">{year}</span> <a href="" class="footer__user" target="_blank" rel="noopener noreferrer">Joel Ccasane</a>. Todos los derechos reservados</p>
+        <p>Copyright © <span id="year">{year}</span> <a href="" class="footer__user" target="_blank" rel="noopener noreferrer">Joel Ccasane</a>. Todos los derechos reservados.</p>
     </div>
 </footer>
 
@@ -12,25 +11,24 @@ const year = new Date().getFullYear();
 .footer {
     font-size: 0.875rem;
     color: var(--light-beige);
-    background-color: var(--dark-blue);
-    font-family: var(--font-text);
+    background-color: var(--dark-charcoal);
 }
 
 .footer__container {
     display: flex;
-    justify-content: center;
-    max-width: 900px;
+    justify-content: flex-start;
+    max-width: 690px;
     margin: auto;
-    padding: 1.5rem ;
+    padding: 1rem 1.5rem;
 }
 
 .footer__user {
     text-decoration: none;
-    color: var(--clr-primary-white);
+    color: var(--light-beige);
+    transition: color .29s ease;
 }
 
 .footer__user:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1.5px;
+    color: var(--medium-gray);
 }
 </style>
