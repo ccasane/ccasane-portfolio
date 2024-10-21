@@ -1,14 +1,12 @@
 ---
 import {hero} from "../data/data.json";
-import HeroButton from "../components/ProjectsButton.astro";
+import HeroButton from "../components/HeroButton.astro";
 ---
 
 <section class="hero">
     <div class="hero__container">
         <div class="hero__data">
-            <div class="hero__title">
-                <h1>Hola, Soy {hero.name}.</h1>
-            </div>
+            <h1>¡Hola! Soy {hero.name}.</h1>
             <p><strong>Desarrollador Front-End</strong> con sólidos conocimientos de JavaScript y experiencia en la creación de aplicaciones web responsivas e interactivas.</p>
             <p>{hero.description[1]}<p>
             <HeroButton></HeroButton>
@@ -18,22 +16,17 @@ import HeroButton from "../components/ProjectsButton.astro";
 
 <style>
 .hero {
-    padding: 1.8rem  1rem;
+    padding: 3rem 1rem 2rem;
     background: var(--light-beige);
 }
 
 .hero__container {
     width: 100%;
-    max-width: 690px;
+    max-width: 600px;
     margin: auto;
 }
 
-.hero__data {
-    width: 100%;
-    max-width: 550px;
-}
-
-.hero__title h1 {
+.hero__data h1 {
     font-weight: 100;
     line-height: 1;
     font-size: 3.5rem;
