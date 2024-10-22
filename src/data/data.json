@@ -27,6 +27,9 @@
 			"href": "/"
 		}
 	],
+	"skills": {
+		"stack": ["HTML", "CSS", "JavaScript", "TypeScript", "Angular", "Vue.js", "Astro", "Tailwind", "Bootstrap", "Git", "Github", "Figma"]
+	},
 	"aboutMe": {
 		"description": "Ya nada puede matarme, porque morí el día que conocí la programación. Pero como no todo es drama, también manejo tecnologías como Vue, Angular, Bootstrap y Tailwind, y lenguajes como JavaScript y TypeScript."
 	},
