@@ -8,7 +8,7 @@ import HeroButton from "../components/HeroButton.astro";
         <div class="hero__data">
             <h1>¡Hola! Soy {hero.name}.</h1>
             <p><strong>Desarrollador Front-End</strong> con sólidos conocimientos de JavaScript y experiencia en la creación de aplicaciones web responsivas e interactivas.</p>
-            <p>{hero.description[1]}<p>
+            <p>{hero.description}<p>
             <HeroButton></HeroButton>
         </div>
     </div>
@@ -27,7 +27,6 @@ import HeroButton from "../components/HeroButton.astro";
 }
 
 .hero__data h1 {
-    font-weight: 100;
     line-height: 1;
     font-size: 3.5rem;
     color: var(--dark-charcoal);
@@ -35,7 +34,6 @@ import HeroButton from "../components/HeroButton.astro";
 
 .hero__data p {
     margin: 0.875rem 0;
-    font-size: 1rem;
     color: var(--dark-charcoal);
 }
 </style>
