@@ -11,7 +11,7 @@ const { title, description, stack, href } = Astro.props;
 ---
 <div class="card__projects">
     <article class="card__data">
-        <a href={href} rel="noopener noreferrer">{title}</a>
+        <a href={href} target="_blank" rel="noopener noreferrer">{title}</a>
         <ProjectStack stack={stack}></ProjectStack>
         <p>{description}</p>
     </article>
@@ -25,8 +25,11 @@ const { title, description, stack, href } = Astro.props;
 .card__data a {
     font-size: 1.1rem;
     font-weight: 600;
-    text-decoration: none;
     color: var(--dark-charcoal);
+}
+
+.card__data p {
+    margin-top: .2rem;
 }
 
 .card__data a:hover {
