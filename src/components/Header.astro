@@ -1,9 +1,7 @@
 <header class="header">
     <div class="header__container">
         <nav class="nav__links">
-            <a class="nav__link" href="/">Inicio</a>
-            <a class="nav__link" href="/projects">Proyectos</a>
-            <a class="nav__link" href="#about-me">Sobre Mí</a>
+            <a href="/">Inicio</a>
         </nav>
     </div>
 </header>
@@ -14,27 +12,18 @@
 
 .header__container {
     display: flex;
-    align-items: center;
     max-width: 600px;
     margin: auto;
-    padding: 0.6rem 1rem;
+    padding: .6rem 1rem;
 }
 
-.nav__links {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.nav__link {
-    font-size: 1rem;
+.nav__links a {
     font-weight: 500;
     color: var(--light-beige);
-    text-decoration: none;
-    transition: color 0.29s ease;
+    transition: color .29s ease;
 }
 
-.nav__link:hover {
-    color: var(--medium-gray);
+.nav__links a:hover {
+    text-decoration: underline;
 }
 </style>
