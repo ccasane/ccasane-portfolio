@@ -7,7 +7,7 @@ const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
@@ -43,6 +43,7 @@ const { title } = Astro.props;
 html {
     line-height: 1.5;
     scroll-behavior: smooth;
+    font-family: var(--font-text);
 }
 
 body {
@@ -52,8 +53,9 @@ body {
     color: var(--dark-charcoal);
 }
 
-p, a{
-    font-family: var(--font-text);
+a, ul{
+    text-decoration: none;
+    list-style: none;
 }
 
 h1,h2,h3,h4,h5,h6 {
