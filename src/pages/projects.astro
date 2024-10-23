@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Proyectos | Joel Ccasane">
+<main>
+    <p>¡Obreros Trabajando!</p>
+    <a href="/">Inicio</a>
+</main>
+</Layout>
+
+<style>
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+a {
+    font-size: 0.875rem;
+    padding: .01rem .7rem .10rem .7rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--light-beige);
+    background-color: var(--dark-charcoal);
+    transition: background-color .29s ease;
+}
+a:hover {
+    background-color: var(--medium-gray);
+}
+</style>
