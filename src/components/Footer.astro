@@ -1,9 +1,10 @@
 ---
+import {footer} from '../data/data.json';
 const year = new Date().getFullYear();
 ---
 <footer class="footer">
     <div class="footer__container">
-        <p>© <span id="year">{year}</span>. Desarrollado por <a href="" class="footer__user" target="_blank" rel="noopener noreferrer">Joel Ccasane</a>.</p>
+        <p>© <span id="year">{year}</span>. Desarrollado por <a href={footer.github} class="footer__user" target="_blank" rel="noopener noreferrer">Joel Ccasane</a>.</p>
     </div>
 </footer>
 
