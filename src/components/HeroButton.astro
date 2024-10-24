@@ -11,8 +11,8 @@ import {hero} from "../data/data.json";
 
 <style>
 .hero__btns  {
-    font-family: var(--font-text);
     display: flex;
+    flex-wrap: wrap;
     gap: .7rem;
 }
 
@@ -20,13 +20,12 @@ import {hero} from "../data/data.json";
     font-size: 0.875rem;
     padding: .01rem .7rem .10rem .7rem;
     border-radius: 5px;
-    text-decoration: none;
-    color: var(--light-beige);
-    background-color: var(--dark-charcoal);
+    color: var(--clr-primary-50);
+    background-color: var(--clr-primary-900);
     transition: background-color .29s ease;
 }
 
 .hero__btns a:hover {
-    background-color: var(--medium-gray);
+    background-color: var(--clr-primary-800);
 }
 </style>
