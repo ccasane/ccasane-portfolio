@@ -5,33 +5,33 @@ import ProjectsButton from "../components/ProjectsButton.astro";
 ---
 
 <section class="projects">
-    <div class="projects__container">
-        <h2>Proyectos</h2>
-        {projects.map((pro) => (
-            <ProjectsCard
-                title={pro.title}
-                description={pro.description}
-                stack={pro.stack}
-                href={pro.href}
-            ></ProjectsCard>
-        ))}
-        <ProjectsButton></ProjectsButton>
-    </div>
+	<div class="projects__container">
+		<h2>Proyectos</h2>
+		{projects.map((pro) => (
+			<ProjectsCard
+				title={pro.title}
+				description={pro.description}
+				stack={pro.stack}
+				href={pro.href}
+			></ProjectsCard>
+		))}
+		<ProjectsButton></ProjectsButton>
+	</div>
 </section>
 
 <style>
 .projects {
-    padding: 0 1rem 2rem;
-    background-color: var(--light-beige);
+	padding: 0 1rem 2rem;
+	background-color: var(--light-beige);
 }
 
 .projects__container {
-    width: 100%;
-    max-width: 600px;
-    margin: auto;
+	width: 100%;
+	max-width: 600px;
+	margin: auto;
 }
 
 .projects__container h2 {
-    font-size: 2rem;
+	font-size: 1.8rem;
 }
 </style>
