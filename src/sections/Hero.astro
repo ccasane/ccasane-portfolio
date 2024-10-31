@@ -1,36 +1,34 @@
 ---
-import {hero} from "../data/data.json";
-import HeroButton from "../components/HeroButton.astro";
+import {hero} from '../data/data.json';
+import HeroButton from '../components/HeroButton.astro';
 ---
 
 <section class="hero">
-    <div class="hero__container">
-        <div class="hero__data">
-            <h1>¡Hola! Soy {hero.name}.</h1>
-            <p><strong>Desarrollador Front-End</strong> con sólidos conocimientos de JavaScript y experiencia en la creación de aplicaciones web responsivas e interactivas.</p>
-            <p>{hero.description}<p>
-            <HeroButton></HeroButton>
-        </div>
-    </div>
+	<div class="hero__container">
+		<h1>¡Hola! Soy {hero.name}.</h1>
+		<p><strong>Desarrollador Front-End</strong> con experiencia en Angular, Vue.js y TypeScript, enfocado en crear aplicaciones web interactivas y responsivas.</p>
+		<p>{hero.description}</p>
+		<HeroButton></HeroButton>
+	</div>
 </section>
 
 <style>
 .hero {
-    padding: 3rem 1rem 2rem;
+	padding: 3rem 1rem 2rem;
 }
 
 .hero__container {
-    width: 100%;
-    max-width: 600px;
-    margin: auto;
+	width: 100%;
+	max-width: 600px;
+	margin: auto;
 }
 
-.hero__data h1 {
-    line-height: 1;
-    font-size: 3.5rem;
+.hero__container h1 {
+	line-height: 1;
+	font-size: 3.5rem;
 }
 
-.hero__data p {
-    margin: 0.875rem 0;
+.hero__container p {
+	margin: 0.875rem 0;
 }
 </style>
