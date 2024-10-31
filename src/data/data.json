@@ -1,38 +1,51 @@
 {
-	"header": {
-		"description": "Desarrollador front-end con sólidos conocimientos de JavaScript y experiencia en la creación de aplicaciones web responsivas e interactivas. Dedicado a optimizar el rendimiento web y crear interfaces accesibles y visualmente atractivas que brinden una experiencia de usuario satisfactoria."
-	},
-	"hero": {
-		"name": "Joel",
-		"description": "Dedicado a optimizar el rendimiento web y crear interfaces accesibles y visualmente atractivas que brinden una experiencia de usuario satisfactoria.",
-		"github": "https://github.com/ccasane",
-		"linkedin": "https://www.linkedin.com/in/joelccasane",
-		"email": "mailto:joelccasane@gmail.com",
-		"cv": "https://drive.google.com/file/d/1sROlcBLfD1V-79TkLxWoFwGEmPVYlqYP/view"
-	},
-	"projects": [
-		{
-			"title": "Memorias en Film",
-			"stack": ["Vue.js", "TypeScript", "SCSS"],
-			"description": "Un proyecto personal que muestra los distintos tipos de rollos fotográficos existentes, destacando sus características.",
-			"href": "/"
-		},
-		{
-			"title": "TaskPro Lading Page",
-			"stack": ["Vue.js", "TypeScript", "SCSS"],
-			"description": "Landing page ficticia de TaskPro, una aplicación de productividad. Utilizando tecnologías modernas y un diseño atractivo.",
-			"href": "https://taskpro-landing.vercel.app/"
-		}
-	],
-	"skills": {
-		"stack": ["HTML", "CSS", "JavaScript", "TypeScript", "Angular", "Vue.js", "Astro", "Tailwind", "Bootstrap", "Git", "Github", "Figma"]
-	},
-	"aboutMe": {
-		"description": [
-			"Ya nada puede matarme, porque morí el día que conocí la programación. Pero como no todo es drama, también manejo tecnologías como Vue.js, Angular, Astro, y lenguajes de programación como JavaScript y TypeScript."
-		]
-	},
-	"footer": {
-		"github": "https://github.com/ccasane"
-	}
+  "header": {
+    "description": "Desarrollador Front-End con experiencia en Angular, Vue.js y TypeScript, enfocado en crear aplicaciones web interactivas y responsivas. Comprometido con el desarrollo de interfaces atractivas y accesibles, siempre buscando soluciones eficientes que se adapten a las necesidades del usuario."
+  },
+  "hero": {
+    "name": "Joel",
+    "description": "Comprometido con el desarrollo de interfaces atractivas y accesibles, siempre buscando soluciones eficientes que se adapten a las necesidades del usuario.",
+    "github": "https://github.com/ccasane",
+    "linkedin": "https://www.linkedin.com/in/joelccasane",
+    "email": "mailto:joelccasane@gmail.com",
+    "cv": "https://drive.google.com/file/d/1sROlcBLfD1V-79TkLxWoFwGEmPVYlqYP/view"
+  },
+  "projects": [
+    {
+      "title": "Memorias en Film",
+      "stack": ["Vue.js", "TypeScript", "SCSS"],
+      "description": "Un proyecto personal que muestra los distintos tipos de rollos fotográficos existentes, destacando sus características.",
+      "href": "/"
+    },
+    {
+      "title": "TaskPro Lading Page",
+      "stack": ["Vue.js", "TypeScript", "SCSS"],
+      "description": "Landing page ficticia de TaskPro, una aplicación de productividad. Utilizando tecnologías modernas y un diseño atractivo.",
+      "href": "https://taskpro-landing.vercel.app/"
+    }
+  ],
+  "skills": {
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Angular",
+      "Vue.js",
+      "Astro",
+      "Tailwind",
+      "Bootstrap",
+      "Git",
+      "Github",
+      "Figma"
+    ]
+  },
+  "aboutMe": {
+    "description": [
+      "Ya nada puede matarme, porque morí el día que conocí la programación. Pero como no todo es drama, también manejo tecnologías como Vue.js, Angular, Astro, y lenguajes de programación como JavaScript y TypeScript."
+    ]
+  },
+  "footer": {
+    "github": "https://github.com/ccasane"
+  }
 }
