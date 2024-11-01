@@ -5,24 +5,24 @@ interface Props {
 const { stack } = Astro.props;
 ---
 <ul class="skills__icons">
-    {stack.map((item) => (
-        <li>{item}</li>
-    ))}
+	{stack.map((item) => (
+		<li>{item}</li>
+	))}
 </ul>
 
 
 <style>
 .skills__icons {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: .7rem;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: .7rem;
 }
 
 .skills__icons li{
-    font-size: .875rem;
-    padding: 0 .6rem .15rem;
-    border-radius: 5px;
-    background-color: var(--clr-primary-200);
+	font-size: .875rem;
+	padding: 0 .6rem .15rem;
+	border-radius: 5px;
+	background-color: var(--clr-primary-200);
 }
 </style>
