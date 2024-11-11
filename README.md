@@ -1,8 +1,8 @@
-## Joel Ccasane - Portfolio
+# Joel Ccasane - Portfolio
 
 Mi portafolio web personal. Hecho con amor, eso creo.
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 Para desarrollar este portafolio se utilizan las siguientes tecnologías:
 - Astro
 - HTML
