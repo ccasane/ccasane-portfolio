@@ -5,7 +5,8 @@ import {aboutMe} from '../data/data.json'
 <section class="about-me">
 	<div class="about-me__container">
 		<h2>Sobre mí</h2>
-		<p>{aboutMe.description}</p>
+		<p>{aboutMe.description[0]}</p>
+		<p>{aboutMe.description[1]}</p>
 	</div>
 </section>
 
@@ -22,5 +23,9 @@ import {aboutMe} from '../data/data.json'
 
 .about-me__container h2 {
 	font-size: 1.8rem;
+}
+
+.about-me__container p {
+	margin-bottom: .6rem ;
 }
 </style>
