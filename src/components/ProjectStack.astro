@@ -1,29 +1,29 @@
 ---
 interface Props {
-    stack: string[];
+	stack: string[];
 }
 const { stack } = Astro.props;
 ---
 <div class="project__stack">
-    {stack.map((item) => (
-        <div class="stack__item">
-            <span>{item}</span>
-        </div>
-    ))}
+	{stack.map((item) => (
+		<div class="stack__item">
+			<span>{item}</span>
+		</div>
+	))}
 </div>
 
 <style>
 .project__stack {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: .7rem;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: .7rem;
 }
 
 .stack__item span{
-    font-size: .75rem;
-    padding: .05rem .6rem .20rem;
-    border-radius: 5px;
-    background-color: var(--clr-primary-200);
+	font-size: .75rem;
+	padding: .05rem .6rem .20rem;
+	border-radius: 5px;
+	background-color: var(--clr-primary-200);
 }
 </style>
