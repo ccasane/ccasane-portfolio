@@ -1,31 +1,31 @@
 ---
-import {hero} from "../data/data.json";
+import {hero} from '../data/data.json';
 ---
 
 <div class="hero__btns">
-    <a href={hero.linkedin} target="_blank" rel="noopener noreferrer">Linkedin</a>
-    <a href={hero.github} target="_blank" rel="noopener noreferrer">Github</a>
-    <a href={hero.email}>Contacto</a>
-    <a href={hero.cv} target="_blank" rel="noopener noreferrer">CV</a>
+	<a href={hero.linkedin} target="_blank" rel="noopener noreferrer">Linkedin</a>
+	<a href={hero.github} target="_blank" rel="noopener noreferrer">Github</a>
+	<a href={hero.email}>Contacto</a>
+	<a href={hero.cv} target="_blank" rel="noopener noreferrer">CV</a>
 </div>
 
 <style>
 .hero__btns  {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .7rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: .7rem;
 }
 
 .hero__btns a {
-    font-size: 0.875rem;
-    padding: .01rem .7rem .10rem .7rem;
-    border-radius: 5px;
-    color: var(--clr-primary-50);
-    background-color: var(--clr-primary-900);
-    transition: background-color .29s ease;
+	font-size: 0.875rem;
+	padding: .01rem .7rem .10rem;
+	border-radius: 5px;
+	color: var(--clr-primary-50);
+	background-color: var(--clr-primary-900);
+	transition: background-color .29s ease;
 }
 
 .hero__btns a:hover {
-    background-color: var(--clr-primary-800);
+	background-color: var(--clr-primary-800);
 }
 </style>
