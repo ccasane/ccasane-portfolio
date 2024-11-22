@@ -42,8 +42,9 @@
 	},
 	"aboutMe": {
 		"description": [
-			"Soy Joel Ccasane, desarrollador Front-End y egresado de la carrera técnica en Administración de Redes y Comunicaciones. Durante mi formación, adquirí habilidades en tecnologías como Angular, Vue.js y Astro, así como en lenguajes de programación como JavaScript y TypeScript.",
-			"Actualmente, complemento mi formación académica al mismo tiempo que desarrollo proyectos personales que me permiten aplicar y ampliar mis conocimientos."
+			"Soy Joel Ccasane, desarrollador Front-End y egresado de la carrera técnica en Administración de Redes y Comunicaciones.",
+			"Durante mi formación, he adquirido habilidades en el desarrollo de aplicaciones web utilizando tecnologías como Angular, Vue.js y Astro, además de tener dominio de lenguajes como JavaScript y TypeScript.",
+			"Actualmente, complemento mi formación académica superior mientras llevo a cabo proyectos personales que me permiten aplicar y ampliar mis conocimientos."
 		]
 	},
 	"footer": {
