@@ -14,8 +14,8 @@
 		{
 			"title": "Memorias en Film",
 			"stack": ["Vue.js", "TypeScript", "SCSS"],
-			"description": "Explora y descubre las distintas películas fotográficas existentes.",
-			"href": "/"
+			"description": "Descrubre y explora los distintos carretes de película fotográfica.",
+			"href": "https://memoriasenfilm.vercel.app/"
 		},
 		{
 			"title": "TaskPro Lading Page",
