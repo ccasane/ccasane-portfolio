@@ -1,5 +1,5 @@
 {
-	"header": {
+	"head": {
 		"description": "Desarrollador Front-End con experiencia en Angular, Vue.js y TypeScript, enfocado en crear aplicaciones web interactivas y responsivas. Comprometido con el desarrollo de interfaces atractivas y accesibles, siempre buscando soluciones eficientes que se adapten a las necesidades del usuario."
 	},
 	"hero": {
@@ -14,7 +14,7 @@
 		{
 			"title": "Memorias en Film",
 			"stack": ["Vue.js", "TypeScript", "SCSS"],
-			"description": "Descrubre y explora los distintos carretes de película fotográfica.",
+			"description": "Explora y descubre los distintos carretes de película fotográfica.",
 			"href": "https://memoriasenfilm.vercel.app/"
 		},
 		{
@@ -44,7 +44,7 @@
 		"description": [
 			"Soy Joel Ccasane, desarrollador Front-End y egresado de la carrera técnica en Administración de Redes y Comunicaciones.",
 			"Durante de mi formación, adquirí habilidades en tecnologías como Angular, Vue.js y Astro, así como en lenguajes de programación como JavaScript y TypeScript.",
-			"Actualmente, complemento mis estudios académicos superiores y desarrollo proyectos que me permiten reforzar mis conocimientos."
+			"Actualmente, complemento mis estudios académicos superiores."
 		]
 	},
 	"footer": {
