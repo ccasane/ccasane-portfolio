@@ -1,21 +1,23 @@
 ---
-import {projects} from '../../../data/data.json';
-import ProjectsButton from '../components/ProjectsButton.astro';
-import ProjectsCard from '../components/ProjectsCard.astro';
+import {projects} from '../data/home-data.json';
+import HomeButton from '../components/HomeButton.astro';
+import HomeCard from '../components/HomeCard.astro';
 ---
 
 <section class="projects">
 	<div class="projects__container">
 		<h2>Proyectos</h2>
+		<div class="card__container">
 		{projects.map((pro) => (
-			<ProjectsCard
+				<HomeCard
 				title={pro.title}
 				description={pro.description}
 				stack={pro.stack}
 				href={pro.href}
-			></ProjectsCard>
+			></HomeCard>
 		))}
-		<ProjectsButton></ProjectsButton>
+		</div>
+		<HomeButton></HomeButton>
 	</div>
 </section>
 
@@ -34,4 +36,11 @@ import ProjectsCard from '../components/ProjectsCard.astro';
 .projects__container h2 {
 	font-size: 1.8rem;
 }
+
+.card__container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: .7rem;
+}
+
 </style>

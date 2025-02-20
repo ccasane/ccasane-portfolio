@@ -1,0 +1,47 @@
+{
+	"hero": {
+		"name": "Joel",
+		"description": "Comprometido con el desarrollo de interfaces atractivas y accesibles, siempre buscando soluciones eficientes que se adapten a las necesidades del usuario.",
+		"github": "https://github.com/ccasane",
+		"linkedin": "https://www.linkedin.com/in/joelccasane",
+		"email": "mailto:joelccasane@gmail.com",
+		"cv": "https://drive.google.com/file/d/1sROlcBLfD1V-79TkLxWoFwGEmPVYlqYP/view"
+	},
+	"projects": [
+		{
+			"title": "Memorias en Film",
+			"stack": ["Vue.js", "TypeScript", "SCSS"],
+			"description": "Explora y descubre los distintos carretes de película fotográfica.",
+			"href": "https://memoriasenfilm.vercel.app/"
+		},
+		{
+			"title": "TaskPro Lading Page",
+			"stack": ["Vue.js", "TypeScript", "SCSS"],
+			"description": "Landing page ficticia de una aplicación móvil de productividad.",
+			"href": "https://taskpro-landing.vercel.app/"
+		}
+	],
+	"skills": {
+		"stack": [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"TypeScript",
+			"Angular",
+			"Vue.js",
+			"Astro",
+			"Tailwind",
+			"Bootstrap",
+			"Git",
+			"Github",
+			"Figma"
+		]
+	},
+	"aboutMe": {
+		"description": [
+			"Soy Joel Ccasane, desarrollador Front-End y egresado de la carrera técnica en Administración de Redes y Comunicaciones.",
+			"Durante de mi formación, adquirí habilidades en tecnologías como Angular, Vue.js y Astro, así como en lenguajes de programación como JavaScript y TypeScript.",
+			"Actualmente, complemento mis estudios académicos superiores."
+		]
+	}
+}

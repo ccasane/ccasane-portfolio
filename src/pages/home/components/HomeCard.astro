@@ -1,0 +1,47 @@
+---
+import HomeStack from '../components/HomeStack.astro';
+
+interface Props {
+	title: string;
+	description: string;
+	stack: string[];
+	href: string;
+}
+const { title, description, stack, href } = Astro.props;
+---
+<a href={href} target="_blank" rel="noopener noreferrer" class="card__projects">
+	<h2>{title}</h2>
+	<HomeStack stack={stack}></HomeStack>
+	<p>{description}</p>
+</a>
+
+<style>
+.card__projects {
+	margin-bottom: 1.2rem;
+	padding: 1rem;
+	border-radius: 8px;
+	border: 2px solid transparent;
+	color: var(--clr-primary-900);
+	background-color: var(--clr-primary-100);
+	transition: all .29s ease;
+}
+
+.card__projects h2 {
+	font-size: 1rem;
+	font-weight: 700;
+	font-family: var(--font-text);
+}
+
+.card__projects:hover h2 {
+  text-decoration: underline;
+}
+
+.card__projects:hover {
+	border-color: var(--clr-primary-900);
+	background-color: var(--clr-primary-50);
+}
+
+.card__projects:hover :global(.stack__item) {
+  background-color: var(--clr-primary-300);
+}
+</style>
