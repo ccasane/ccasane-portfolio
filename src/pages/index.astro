@@ -1,20 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Hero from '../sections/Hero.astro';
-import Projects from '../sections/Projects.astro';
-import Skills from '../sections/Skills.astro';
-import AboutMe from '../sections/AboutMe.astro';
-import Footer from '../components/Footer.astro';
+import Header from '../shared/Header.astro';
+import Hero from './home/sections/Hero.astro';
+import Projects from './home/sections/Projects.astro';
+import Skills from './home/sections/Skills.astro';
+import AboutMe from './home/sections/AboutMe.astro';
+import Footer from '../shared/Footer.astro';
 ---
 
 <Layout title="Joel Ccasane | Front-End Developer">
-    <Header></Header>
+	<Header></Header>
     <main>
         <Hero></Hero>
         <Projects></Projects>
         <Skills></Skills>
-        <AboutMe></AboutMe>
+				<AboutMe></AboutMe>
     </main>
-    <Footer></Footer>
+		<Footer></Footer>
 </Layout>
