@@ -2,13 +2,13 @@
 interface Props {
 	stack: string[];
 }
-const { stack } = Astro.props;
+const { stack = [] } = Astro.props;
 ---
-<ul class="project__stack">
+<div class="project__stack">
 	{stack.map((item) => (
-		<li class="stack__item">{item}</li>
+		<p class="stack__item">{item}</p>
 	))}
-</ul>
+</div>
 
 <style>
 .project__stack {
