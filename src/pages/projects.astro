@@ -1,33 +1,14 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from '../layouts/Layout.astro';
+import Header from '../shared/Header.astro';
+import SectionProjects from './projects/sections/SectionProjects.astro';
+import Footer from '../shared/Footer.astro';
 ---
 
 <Layout title="Proyectos | Joel Ccasane">
+<Header></Header>
 <main>
-    <p>¡Obreros Trabajando!</p>
-    <a href="/">Inicio</a>
+<SectionProjects></SectionProjects>
 </main>
+<Footer></Footer>
 </Layout>
-
-<style>
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: .6rem;
-}
-
-a {
-    font-size: 0.875rem;
-    padding: .01rem .7rem .10rem .7rem;
-    border-radius: 5px;
-    color: var(--clr-primary-50);
-    background-color: var(--clr-primary-900);
-    transition: background-color .29s ease;
-}
-
-a:hover {
-    background-color: var(--clr-primary-800);
-}
-</style>

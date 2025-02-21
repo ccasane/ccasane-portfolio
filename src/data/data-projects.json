@@ -1,0 +1,28 @@
+{
+	"projects": [
+		{
+			"title": "Memorias en Film",
+			"stack": ["Vue.js", "TypeScript", "SCSS"],
+			"description": "Explora y descubre los distintos carretes de película fotográfica.",
+			"href": "https://memoriasenfilm.vercel.app"
+		},
+		{
+			"title": "TaskPro Lading Page",
+			"stack": ["Vue.js", "TypeScript", "SCSS"],
+			"description": "Landing page ficticia de una aplicación móvil de productividad.",
+			"href": "https://taskpro-landing.vercel.app"
+		},
+		{
+			"title": "Weather Track",
+			"stack": ["Angular", "TypeScript", "SCSS"],
+			"description": "Consulta el clima actual y pronósticos globales al instante.",
+			"href": "https://e-weather-track.vercel.app"
+		},
+		{
+			"title": "Kill Bill Counter",
+			"stack": ["HTML", "JavaScript", "CSS"],
+			"description": "Contador inspirado en la película KILL BILL dirigida por Quentin Tarantino.",
+			"href": "https://ccasane.github.io/kill-bill-counter"
+		}
+	]
+}

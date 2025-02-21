@@ -1,0 +1,30 @@
+---
+interface Props {
+	stack: string[];
+}
+const { stack = [] } = Astro.props;
+---
+<div class="project__stack">
+	{stack.map((item) => (
+		<p class="stack__item">{item}</p>
+	))}
+</div>
+
+<style>
+.project__stack {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: .7rem;
+	margin: .6rem 0;
+}
+
+.stack__item{
+	font-size: .75rem;
+	font-weight: 500;
+	border-radius: 10px;
+	padding: .05rem .7rem .20rem;
+	background-color: var(--clr-primary-200);
+	transition: all .29s ease;
+}
+</style>

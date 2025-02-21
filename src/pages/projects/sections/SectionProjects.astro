@@ -1,0 +1,41 @@
+---
+import {projects} from '../../../data/data-projects.json';
+import ProjectsCard from '../components/ProjectsCard.astro';
+---
+<section class="projects">
+	<div class="projects__container">
+		<h1>Proyectos</h1>
+		<div class="card__container">
+			{projects.map((pro) => (
+					<ProjectsCard
+					title={pro.title}
+					description={pro.description}
+					stack={pro.stack}
+					href={pro.href}
+				></ProjectsCard>
+			))}
+			</div>
+	</div>
+</section>
+<style>
+.projects {
+	padding: 3rem 1rem;
+}
+
+.projects__container {
+	width: 100%;
+	max-width: 640px;
+	margin: auto;
+}
+
+.projects__container h1 {
+	font-size: 3rem;
+	margin-bottom: 0.875rem;
+}
+
+.card__container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 1rem;
+}
+</style>
