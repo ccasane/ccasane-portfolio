@@ -2,7 +2,7 @@
 interface Props {
 	stack: string[];
 }
-const { stack } = Astro.props;
+const { stack = [] } = Astro.props;
 ---
 <ul class="skills__icons">
 	{stack.map((item) => (
