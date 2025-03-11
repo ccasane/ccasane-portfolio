@@ -1,4 +1,6 @@
 ---
+import Icon from '../../../icon/Icon.astro';
+
 interface Props {
 	stack: string[];
 }
@@ -6,7 +8,8 @@ const { stack = [] } = Astro.props;
 ---
 <div class="project__stack">
 	{stack.map((item) => (
-		<p class="stack__item">{item}</p>
+		<p class="stack__item">
+			<Icon iconName={item} /> {item}</p>
 	))}
 </div>
 
@@ -20,10 +23,12 @@ const { stack = [] } = Astro.props;
 }
 
 .stack__item{
+	display: inline-flex;
+	align-items: center;
+	gap: .2rem;
 	font-size: .75rem;
-	font-weight: 500;
 	border-radius: 10px;
-	padding: .05rem .7rem .20rem;
+	padding: .10rem .7rem .08rem;
 	background-color: var(--clr-primary-200);
 	transition: all .29s ease;
 }
