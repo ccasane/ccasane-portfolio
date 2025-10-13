@@ -1,7 +1,7 @@
 {
 	"hero": {
 		"name": "Joel",
-		"description": "Comprometido con el desarrollo de interfaces atractivas y accesibles, siempre buscando soluciones eficientes que se adapten a las necesidades del usuario.",
+		"description": "Enfocado en optimizar la experiencia del usuario mediante buenas prácticas de UX/UI, rendimiento y código limpio. Capacidad para colaborar en equipos multidisciplinarios y aportar soluciones integrales orientadas a la experiencia del usuario y la eficiencia del sistema.",
 		"github": "https://github.com/ccasane",
 		"linkedin": "https://www.linkedin.com/in/joelccasane",
 		"email": "mailto:joelccasane@gmail.com",
@@ -22,27 +22,28 @@
 		}
 	],
 	"skills": {
-		"stack": [
+		"front": [
 			"HTML",
 			"CSS",
 			"JavaScript",
 			"TypeScript",
 			"Angular",
 			"Vue.js",
+			"React.js",
+			"Nuxt.js",
 			"Astro",
 			"SCSS",
 			"Tailwind",
-			"Bootstrap",
-			"Git",
-			"Github",
-			"Figma"
-		]
+			"Bootstrap"
+		],
+		"back": ["Java", "Spring Boot", "MySQL", "PostgreSQL"],
+		"tools": ["Git", "Github", "Figma"]
 	},
 	"aboutMe": {
 		"description": [
-			"Soy Joel Ccasane, desarrollador Front-End y egresado de la carrera técnica en Administración de Redes y Comunicaciones.",
-			"Durante de mi formación, adquirí habilidades en tecnologías como Angular, Vue.js y Astro, así como en lenguajes de programación como JavaScript y TypeScript.",
-			"Actualmente, complemento mis estudios académicos superiores."
+			"Soy Joel Ccasane, Desarrollador Full-Stack y egresado de la carrera técnica en Administración de Redes y Comunicaciones.",
+			"Durante mi formación, adquirí habilidades en tecnologías como Angular, Vue.js, React.js, Nuxt.js, Astro y Spring Boot, así como en lenguajes de programación como JavaScript, TypeScript y Java.",
+			"Actualmente complemento mi formación con estudios académicos superiores, enfocado en seguir creciendo profesionalmente y fortaleciendo mis habilidades técnicas."
 		]
 	}
 }
