@@ -3,10 +3,11 @@ import Icon from '../../../icon/Icon.astro';
 
 interface Props {
 	stack: string[];
+	noMarginBottom?: boolean;
 }
-const { stack = [] } = Astro.props;
+const { stack = [], noMarginBottom = false } = Astro.props;
 ---
-<ul class="skills__icons">
+<ul class={`skills__icons ${noMarginBottom ? 'no-margin' : ''}`}>
 	{stack.map((item) => (
 		<li><Icon iconName={item} /> {item}</li>
 	))}
@@ -18,7 +19,12 @@ const { stack = [] } = Astro.props;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	gap: .7rem;
+	gap: .8rem;
+	margin-bottom: .4rem;
+}
+
+.skills__icons.no-margin {
+  margin-bottom: 0;
 }
 
 .skills__icons li{
@@ -26,8 +32,14 @@ const { stack = [] } = Astro.props;
 	display: inline-flex;
 	align-items: center;
 	gap: .3rem;
-	border-radius: 10px;
-	padding: .05rem .7rem .10rem;
+	border-radius: 9px;
+  padding: .06rem .7rem .08rem;
 	background-color: var(--clr-primary-200);
+	transition: all .29s ease;
+}
+
+.skills__icons li:hover {
+	background-color: var(--clr-primary-300);
+	cursor: default;
 }
 </style>

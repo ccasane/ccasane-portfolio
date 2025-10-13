@@ -6,7 +6,12 @@ import SkillStack from '../components/SkillStack.astro';
 <section class="skills">
 	<div class="skills__container">
 		<h2>Habilidades</h2>
-		<SkillStack stack={skills.stack}></SkillStack>
+		<h3 class="skills__contaier__front">Front - End</h3>
+		<SkillStack stack={skills.front}></SkillStack>
+		<h3 class="skills__contaier__back">Back - End</h3>
+		<SkillStack stack={skills.back}></SkillStack>
+		<h3 class="skills__contaier__tools">Herramientas</h3>
+		<SkillStack stack={skills.tools} ></SkillStack>
 	</div>
 </section>
 
@@ -23,6 +28,16 @@ import SkillStack from '../components/SkillStack.astro';
 
 .skills__container h2 {
 	font-size: 1.8rem;
-	margin-bottom: .6rem;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 3px;
 }
+
+.skills__container h3 {
+	font-size: 1rem;
+	margin-bottom: .6rem;
+	font-weight: bold;
+	font-family: var(--font-text);
+}
+
 </style>
